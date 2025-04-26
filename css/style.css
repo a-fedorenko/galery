@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    --primary-color: #0275d8;
+    --dark-color: #333333;
+    --light-color: #f4f4f4;
+    --danger-color: #d9534f;
+    --success-color: #2FC7A1;
+    --warning-color: #f0ad4e;
+    --active: #704FE6;
+    --active2: #785DD7;
+    --white: white;
+    --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+.gallery-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+
+.gallery-item {
+    cursor: pointer;
+}
+
+.gallery-img {
+    width: 100%;  
+}
+
+.basicLightbox__placeholder {
+    display: inline-flex;
+    flex-direction: column;
+    color: white;
+    max-width: 70% !important;
+    justify-content: center;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 18px;
+}
