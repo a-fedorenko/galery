@@ -72,14 +72,17 @@ function setImages() {
 }
 
 function openModal(target) {
+    if(!target.id) {
+        return;
+    }
     const modal = createModalContent(target);
     basicLightbox.create(modal).show();
 }
 
-function createModalContent(target) {
+function createModalContent({ id, alt }) {
     const content = document.createElement('div');
-    content.innerHTML = `<img width="100%" src="./assets/img_lg/${target.id}.jpg" alt="${target.alt}"> <p>${target.alt}</>`;
-    return content
+    content.innerHTML = `<img width="100%" src="./assets/img_lg/${id}.jpg" alt="${alt}"> <p>${alt}</>`;
+    return content;
 }
 
 setImages();

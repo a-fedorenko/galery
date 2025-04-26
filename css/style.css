@@ -27,7 +27,7 @@ body {
 
 .gallery {
     display: grid;
-    gap: 10px;
+    gap: 15px;
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
 }
