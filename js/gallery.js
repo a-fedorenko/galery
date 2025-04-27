@@ -21,7 +21,7 @@ const images = [
         id: '04',
         preview: './assets/img_sm/04.jpg',
         original: './assets/img_lg/04.jpg',
-        description: 'hot air balloon over the sea'
+        description: 'butterfly on a flower'
     },
     {
         id: '05',
@@ -45,13 +45,13 @@ const images = [
         id: '08',
         preview: './assets/img_sm/08.jpg',
         original: './assets/img_lg/08.jpg',
-        description: 'yellow flower'
+        description: 'flowering branch'
     },
     {
         id: '09',
         preview: './assets/img_sm/09.jpg',
         original: './assets/img_lg/09.jpg',
-        description: 'bird on a branch'
+        description: 'squirrel'
     }
 ];
 
